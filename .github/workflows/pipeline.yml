@@ -52,7 +52,7 @@ jobs:
 
           sudo ssh -o StrictHostKeyChecking=no -i eks_key.pem ${{env.USER_NAME}}@$EC2_INSTANCE_IP "aws eks update-kubeconfig --name my-eks --region ${{env.REGION}}"
 
-          echo "DONE"
+          echo "finished"
 
   install_terraform:
     needs: ssh_ec2
