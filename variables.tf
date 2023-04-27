@@ -5,6 +5,4 @@ variable "cluster_id" {
 
 }
 
-variable "region" {}
-variable "access_key" {}
-variable "secret_key" {}
+
